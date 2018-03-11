@@ -24,7 +24,9 @@ function Install-Hugo($version=$hugoVersion, $force=$false) {
 		# See this answer on StackOverflow:
 		#    https://stackoverflow.com/a/48030563
 		[Net.ServicePointManager]::SecurityProtocol = "Tls12, Tls11, Tls"
-		Invoke-WebRequest -OutFile hugo.zip -Uri $hugoDownloadPath -Method Get
+		# Prevent the progress meter from trying to access the console mode
+		$ProgressPreference = "SilentlyContinue"
+		$null | Invoke-WebRequest -OutFile hugo.zip -Uri $hugoDownloadPath
 		# (New-Object System.Net.WebClient).DownloadFile($hugoDownloadPath, "hugo.zip")
 
 		# .\curl.exe -o hugo.zip -L $hugoDownloadPath --verbose
