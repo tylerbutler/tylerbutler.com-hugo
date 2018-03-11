@@ -1,4 +1,6 @@
-. 'D:\home\site\wwwroot\azure-hugo\azure-hugo.ps1'
+. '.\azure-hugo\azure-hugo.ps1'
+
+Get-Location
 
 Write-Output "Inside run.ps1..."
 Invoke-SiteBuild
