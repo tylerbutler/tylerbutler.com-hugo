@@ -42,7 +42,7 @@ function Invoke-SiteBuild($version=$hugoVersion) {
 	# Build the site
 	Write-Output "Building site..."
 	Push-Location d:\home\site\repository\
-	& $(Get-HugoExe($version)) -d D:\home\site\wwwroot
+	& $(Get-HugoExe($version)) -d D:\home\site\wwwroot --verbose
 	Pop-Location
 	Write-Output "Done!"
 }
