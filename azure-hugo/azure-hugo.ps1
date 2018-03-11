@@ -16,7 +16,11 @@ function Install-Hugo($version=$hugoVersion, $force=$false) {
 		Push-Location $hugoPath
 
 		Write-Output "Downloading Hugo v$hugoVersion"
-		Invoke-WebRequest -o hugo.zip -L $hugoDownloadPath
+
+		# See this answer on StackOverflow:
+		#    https://stackoverflow.com/a/48030563
+		[Net.ServicePointManager]::SecurityProtocol = "tls12, tls11, tls"
+		Invoke-WebRequest -OutFile hugo.zip -Uri $hugoDownloadPath
 
 		Write-Output "Installing Hugo..."
 		d:\7zip\7za x hugo.zip
@@ -32,7 +36,7 @@ function Invoke-SiteBuild($version=$hugoVersion) {
 	$hugoPath = Get-HugoPath($version)
 	Push-Location $hugoPath
 	Write-Output "Building site..."
-	./hugo.exe -d D:\home\site\wwwroot
+	.\hugo.exe -d D:\home\site\wwwroot
 	Write-Output "Done!"
 	Pop-Location
 }
