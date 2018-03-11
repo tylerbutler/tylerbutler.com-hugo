@@ -5,10 +5,14 @@ function Get-HugoPath($version=$hugoVersion) {
 	return "D:\home\site\deployments\tools\hugo\v$version\"
 }
 
+function Get-HugoExe($version=$hugoVersion) {
+	return Join-Path (Get-HugoPath($version)) "hugo.exe"
+}
+
 function Install-Hugo($version=$hugoVersion, $force=$false) {
 	# Check if Hugo is installed
 	$hugoPath = Get-HugoPath($version)
-	$isInstalled = Test-Path $hugoPath
+	$isInstalled = Test-Path (Get-HugoExe($version))
 
 	if(-not $isInstalled -or $force) {
 		# Download and install Hugo
