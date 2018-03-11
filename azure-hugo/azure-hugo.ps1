@@ -41,6 +41,6 @@ function Install-Hugo($version=$hugoVersion, $force=$false) {
 function Invoke-SiteBuild($version=$hugoVersion) {
 	# Build the site
 	Write-Output "Building site..."
-	& $(Get-HugoExe($version)) -d D:\home\site\wwwroot
+	& $(Get-HugoExe($version)) -d D:\home\site\wwwroot --config d:\home\site\repository\config.yaml
 	Write-Output "Done!"
 }

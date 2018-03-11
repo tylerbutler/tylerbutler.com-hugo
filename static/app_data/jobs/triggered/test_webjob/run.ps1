@@ -1,4 +1,4 @@
-. '.\azure-hugo\azure-hugo.ps1'
+. 'D:\home\site\repository\azure-hugo\azure-hugo.ps1'
 
 Get-Location
 
