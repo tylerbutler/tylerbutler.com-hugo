@@ -24,12 +24,10 @@ function Install-Hugo($version=$hugoVersion, $force=$false) {
 		# See this answer on StackOverflow:
 		#    https://stackoverflow.com/a/48030563
 		[Net.ServicePointManager]::SecurityProtocol = "Tls12, Tls11, Tls"
+
 		# Prevent the progress meter from trying to access the console mode
 		$ProgressPreference = "SilentlyContinue"
 		$null | Invoke-WebRequest -OutFile hugo.zip -Uri $hugoDownloadPath
-		# (New-Object System.Net.WebClient).DownloadFile($hugoDownloadPath, "hugo.zip")
-
-		# .\curl.exe -o hugo.zip -L $hugoDownloadPath --verbose
 
 		Write-Output "Installing Hugo..."
 		d:\7zip\7za x hugo.zip
@@ -42,10 +40,7 @@ function Install-Hugo($version=$hugoVersion, $force=$false) {
 
 function Invoke-SiteBuild($version=$hugoVersion) {
 	# Build the site
-	$hugoPath = Get-HugoPath($version)
-	Push-Location $hugoPath
 	Write-Output "Building site..."
-	.\hugo.exe -d D:\home\site\wwwroot
+	& $(Get-HugoExe($version)) -d D:\home\site\wwwroot
 	Write-Output "Done!"
-	Pop-Location
 }
