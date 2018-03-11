@@ -23,11 +23,11 @@ function Install-Hugo($version=$hugoVersion, $force=$false) {
 
 		# See this answer on StackOverflow:
 		#    https://stackoverflow.com/a/48030563
-		# [Net.ServicePointManager]::SecurityProtocol = "tls12, tls11, tls"
+		[Net.ServicePointManager]::SecurityProtocol = "Tls12, Tls11, Tls"
 		# Invoke-WebRequest -OutFile hugo.zip -Uri $hugoDownloadPath
-		# (New-Object System.Net.WebClient).DownloadFile($hugoDownloadPath, "hugo.zip")
+		(New-Object System.Net.WebClient).DownloadFile($hugoDownloadPath, "hugo.zip")
 
-		.\curl.exe -o hugo.zip -L $hugoDownloadPath --verbose
+		# .\curl.exe -o hugo.zip -L $hugoDownloadPath --verbose
 
 		Write-Output "Installing Hugo..."
 		d:\7zip\7za x hugo.zip
