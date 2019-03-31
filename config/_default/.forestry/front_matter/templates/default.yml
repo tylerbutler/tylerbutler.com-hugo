@@ -18,5 +18,8 @@ fields:
   type: boolean
   hidden: false
   default: true
+- type: tag_list
+  name: tags
+  label: Tags
 pages:
 - content/articles/ten-of-my-favorite-poems.md
