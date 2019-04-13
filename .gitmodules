@@ -6,3 +6,6 @@
 	path = azure-hugo
 	url = https://github.com/tylerbutler/azure-hugo.git
 	branch = master
+[submodule "themes/orion"]
+	path = themes/orion
+	url = https://github.com/tylerbutler/orion-hugo.git
