@@ -10,7 +10,11 @@
       "Bash(git add:*)",
       "WebFetch(domain:littlefoot.js.org)",
       "Bash(rm:*)",
-      "Bash(cp:*)"
+      "Bash(cp:*)",
+      "Bash(hugo server:*)",
+      "Bash(npm run test:visual:*)",
+      "Bash(npx playwright test:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []

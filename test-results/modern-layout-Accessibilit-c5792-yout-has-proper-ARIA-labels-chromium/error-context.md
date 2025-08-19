@@ -1,0 +1,301 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - heading "tyler butler" [level=1]:
+    - link "tyler butler":
+      - /url: http://localhost:1313/
+  - navigation:
+    - list:
+      - listitem:
+        - link "articles":
+          - /url: http://localhost:1313/articles/
+      - listitem:
+        - link "projects":
+          - /url: http://localhost:1313/projects/
+      - listitem:
+        - link "about":
+          - /url: http://localhost:1313/about/
+- paragraph
+- text: I'm
+- link "Tyler Butler":
+  - /url: /about/
+- text: ": a big man with small dogs."
+- paragraph
+- separator
+- navigation:
+  - list:
+    - listitem:
+      - link "feed":
+        - /url: http://feed.tylerbutler.com/AllPosts
+      - text: /
+    - listitem:
+      - link "archives":
+        - /url: /articles/
+      - text: /
+    - listitem:
+      - link "colophon":
+        - /url: /colophon/
+- separator
+- heading "you might remember me from" [level=2]
+- list:
+  - listitem:
+    - link "github":
+      - /url: https://github.com/tylerbutler
+- main:
+  - text: NOV 28 2024
+  - link "∞":
+    - /url: /2024/11/thanksgiving/
+  - list:
+    - listitem:
+      - link "Thanksgiving":
+        - /url: /tags/thanksgiving/
+  - article:
+    - time
+    - heading "Thanksgiving 2024" [level=1]:
+      - link "Thanksgiving 2024":
+        - /url: /2024/11/thanksgiving/
+    - paragraph:
+      - text: Thanksgiving has been my favorite of the US holidays for some time. I’ve
+      - link "written about it several times over the years":
+        - /url: /tags/thanksgiving/
+      - text: .
+    - paragraph: "When I am away for the holiday, I have used the following Rumi quote as my auto-reply message at work:"
+    - blockquote:
+      - paragraph: Wear gratitude like a cloak, and it will feed every corner of your life.
+    - separator
+    - paragraph: "This year, though, has been extremely hard, following several other years that I swore were the hardest. The hits: they keep on coming."
+    - paragraph: "This year, a different Rumi poem rings true:"
+    - blockquote:
+      - paragraph: Who makes these changes? I shoot an arrow right. It lands left. I ride after a deer and find myself Chased by a hog. I plot to get what I want And end up in prison. I dig pits to trap others And fall in.
+      - paragraph: I should be suspicious Of what I want.
+  - text: AUG 05 2017
+  - link "∞":
+    - /url: /2017/08/coke-zero-ii-the-review/
+  - article:
+    - time
+    - 'heading "Coke Zero II: The Review" [level=1]':
+      - 'link "Coke Zero II: The Review"':
+        - /url: /2017/08/coke-zero-ii-the-review/
+    - heading "The News" [level=2]
+    - paragraph:
+      - text: "Last week, my wife shared with me some rather alarming news: Coke Zero"
+      - link "is being discontinued":
+        - /url: https://www.washingtonpost.com/business/coke-zero-gets-makeover-as-coke-zero-sugar/2017/07/26/69c65010-7214-11e7-8c17-533c52b2f014_story.html?utm_term=.f6a83466de55
+      - text: . As a man who has an arguably unhealthy attachment to his carbonated beverage of choice, this was panic-worthy.
+    - paragraph:
+      - text: You’ll forgive me for not trusting the Coca-Cola Company when they roll out replacement products with “new, improved taste.” After all, this is the same company that brought us New Coke
+      - superscript:
+        - link "1":
+          - /url: "#fn:1"
+      - text: in 1985. Last I heard, that was still used as a cautionary tale in Marketing 101 classes.
+    - paragraph: And you’ll also forgive me for not thinking of this as merely a re-branding of the Coke Zero product. The ingredients list may be the same, but they clearly claim to have “a new recipe.” So regardless of what anyone else says, Coke Zero in its current form is gone.
+    - paragraph: No big deal, though, right? I mean, announcements like this… they tend to be sensationalist. At the very least, I’ll certainly have several months to prepare myself psychologically.
+    - paragraph: "Nope:"
+    - blockquote:
+      - paragraph: The new cans and bottles, which will incorporate more red like regular Coke, will start hitting shelves in August 2017.
+    - paragraph:
+      - emphasis: August 2017?
+      - text: Commence freak-out in three… two… one…
+    - link "Read more →":
+      - /url: http://localhost:1313/2017/08/coke-zero-ii-the-review/
+  - text: AUG 25 2016
+  - link "∞":
+    - /url: /2016/08/comiskey-park/
+  - article:
+    - time
+    - heading "Comiskey Park" [level=1]:
+      - link "Comiskey Park":
+        - /url: /2016/08/comiskey-park/
+    - paragraph:
+      - text: Well, it’s happened again. They’ve gone and
+      - link "renamed Comiskey Park":
+        - /url: http://wgntv.com/2016/08/24/white-sox-announce-name-change-to-ballpark/
+      - text: to something else. And I feel about the same way
+      - link "I did back in 2004":
+        - /url: /2004/05/all-i-said-was-comiskey-park/
+      - text: ", when the last name change happened."
+    - paragraph: I lived a few blocks from the park at that time, as opposed to the few thousand I do now, but it still upsets me. Whatever happens, it’ll always be Comiskey Park to me.
+  - text: NOV 27 2015
+  - link "∞":
+    - /url: /2015/11/thanksgiving-tradition-alice-s-restaurant-massacre/
+  - list:
+    - listitem:
+      - link "Music":
+        - /url: /tags/music/
+    - listitem:
+      - link "Thanksgiving":
+        - /url: /tags/thanksgiving/
+    - listitem:
+      - link "Tradition":
+        - /url: /tags/tradition/
+  - article:
+    - time
+    - 'heading "Thanksgiving Tradition: Alice''s Restaurant Massacre" [level=1]':
+      - 'link "Thanksgiving Tradition: Alice''s Restaurant Massacre"':
+        - /url: /2015/11/thanksgiving-tradition-alice-s-restaurant-massacre/
+    - paragraph:
+      - text: "I have a tradition on Thanksgiving: I listen to Arlo Guthrie’s classic"
+      - emphasis: Alice’s Restaurant Massacre
+      - text: ; all 18 minutes and 37 seconds of it. I don’t remember exactly where I picked up this tradition, but it feels distinctly
+      - emphasis: mine
+      - text: since it’s not something that my family did growing up.
+    - paragraph: Anyway, I found out yesterday that the song is available on Spotify in its full-length glory. So kick back, close your eyes for 20 minutes, and enjoy.
+    - iframe
+  - text: FEB 10 2015
+  - link "∞":
+    - /url: /2015/02/documentation-versions-and-read-the-docs/
+  - list:
+    - listitem:
+      - link "Engineer":
+        - /url: /tags/engineer/
+    - listitem:
+      - link "Documentation":
+        - /url: /tags/documentation/
+  - article:
+    - time
+    - heading "Documentation, Versions, and Read the Docs" [level=1]:
+      - link "Documentation, Versions, and Read the Docs":
+        - /url: /2015/02/documentation-versions-and-read-the-docs/
+    - paragraph:
+      - text: Engineer is a side project for me right now. That means that while I am actively working on Engineer pretty regularly, releases themselves are not necessarily regular. I’ve adopted a repository/branch structure that’s influenced by
+      - link "git flow":
+        - /url: http://nvie.com/posts/a-successful-git-branching-model/
+      - text: ", so my main development branch is not"
+      - emphasis: master
+      - text: ", it’s"
+      - emphasis: dev
+      - text: .
+    - list:
+      - listitem:
+        - text: »
+        - emphasis: master
+        - text: ": The most recent released version of the code"
+      - listitem:
+        - text: »
+        - emphasis: dev
+        - text: ": The in-development version of the code"
+    - paragraph:
+      - text: Up until
+      - link "Engineer v0.5.0":
+        - /url: /2014/05/engineer-v0-5-0-released/
+      - text: ", when you went to GitHub, you saw"
+      - emphasis: master
+      - text: by default.
+    - paragraph:
+      - text: "When you go to GitHub, I want you to see the latest in-development version. The reason is pretty simple: Since official releases are fairly slow, but I actually make changes fairly often, I want to make sure that activity is shown on the GitHub homepage – via the ‘x days ago’ text that shows up on the far right of the code listing. My hypothesis is that people make some judgements based on the activity level of project. If people are searching for a static site generator, and they come across Engineer, I don’t want them to think that the project is abandoned and simply leave. If my default branch shown in GitHub is"
+      - emphasis: master
+      - text: ", then it looks as though the project isn’t under active development at first glance, which clearly isn’t what I want. Thus, I want GitHub to display the"
+      - emphasis: dev
+      - text: branch by default, which is easy enough to change in the repository settings. I made this change along with the release of Engineer v0.5.0, so now when you go to the repository on GitHub, you’ll see the
+      - emphasis: dev
+      - text: branch by default.
+    - paragraph:
+      - text: There’s still a problem, though, related to the fact that I host
+      - link "Engineer’s public documentation":
+        - /url: https://engineer.readthedocs.org/
+      - text: "on"
+      - link "Read the Docs":
+        - /url: https://readthedocs.org/
+      - text: "(RTD). Imagine someone finds my project on GitHub, likes what they see, and installs the release version using pip:"
+    - code: pip install engineer
+    - paragraph: Seems to be the natural thing to do, right? If they click the link in Engineer’s README to visit the docs at RTD, then I want them to go to the version of the docs that corresponds to the version they just installed – the most recent released version.
+    - paragraph:
+      - text: Now this is also relatively easy to do. RTD actually has some smarts around
+      - link "multiple versions of documentation":
+        - /url: https://docs.readthedocs.org/en/latest/versions.html
+      - text: . RTD offers a few different settings that are relevant to my goals.
+    - paragraph:
+      - text: First, there is a baked in ‘version’ identifier called
+      - emphasis: latest
+      - text: "which is intended to point to the most recent version of your docs:"
+    - blockquote:
+      - paragraph:
+        - text: In the normal case, the latest version will always point to the most up to date development code. If you develop on a branch that is different than the default for your VCS, you should set the
+        - strong: Default Branch
+        - text: to that branch.
+    - paragraph:
+      - text: Of course, in my case, development is done on the
+      - emphasis: dev
+      - text: branch, so I want
+      - emphasis: latest
+      - text: to point to that branch. Fortunately that’s easy to change, as the second sentence above alludes to. In the
+      - emphasis: Advanced Settings
+      - text: section of the RTD dashboard, you’ll find a
+      - emphasis: Default branch
+      - text: setting, in which I entered
+      - emphasis: dev
+      - text: . Great; now
+      - emphasis: latest
+      - text: points to
+      - emphasis: dev
+      - text: .
+    - paragraph:
+      - text: The second setting of relevance in RTD is the
+      - emphasis: default version
+      - text: . This controls what version of your docs
+      - code: /
+      - text: redirects to. By default this will be
+      - emphasis: latest
+      - text: ", but since I want"
+      - code: /
+      - text: to always redirect to the most recent
+      - emphasis: released version
+      - text: of Engineer, I changed this to
+      - emphasis: master
+      - text: . Cool; now
+      - code: /
+      - text: simply redirects to the version of my docs from the
+      - emphasis: master
+      - text: branch, which will always be the most recent released version.
+    - paragraph:
+      - text: There is, of course, still a problem. Ideally, I would like links that people follow to go to the version of the documentation that matches the version of the code they’re coming from and vice-versa. In other words, I would like the documentation link from the README file in the
+      - emphasis: master
+      - text: branch to go to
+      - link "https://engineer.readthedocs.org/en/master/":
+        - /url: https://engineer.readthedocs.org/en/master/
+      - text: ", and the link in the"
+      - emphasis: dev
+      - text: branch to go to
+      - link "https://engineer.readthedocs.org/en/latest/":
+        - /url: https://engineer.readthedocs.org/en/latest/
+      - text: .
+    - paragraph:
+      - text: Unfortunately, that’s not really possible. Sure, I could build some intelligent redirector or something that would look at the referrer URL and redirect to the appropriate docs version, but that’s not something I want to build anytime soon. The best I can do is provide some notes in the documentation itself telling people that they
+      - emphasis: may
+      - text: be looking for a version of documentation that is different from what they’re seeing. It’s not quite ideal from my perspective, but I think it helps.
+    - paragraph: "So bottom line, this is what I’ve wound up with:"
+    - list:
+      - listitem:
+        - text: »If you go directly to
+        - link "https://engineer.readthedocs.org/":
+          - /url: https://engineer.readthedocs.org/
+        - text: ", you’ll get the latest"
+        - emphasis: released
+        - text: version of the docs, which will correspond to what most people will install using pip.
+      - listitem:
+        - text: »If you visit the
+        - link "GitHub repo":
+          - /url: https://github.com/tylerbutler/engineer
+        - text: ", you’ll see the most recent in-development version of the code. The README links to"
+        - link "https://engineer.readthedocs.org/":
+          - /url: https://engineer.readthedocs.org/
+        - text: ", which as I mentioned earlier will redirect to the"
+        - emphasis: released
+        - text: version of the docs.
+      - listitem:
+        - text: »The docs themselves contain notes redirecting people to
+        - link "https://engineer.readthedocs.org/en/latest/":
+          - /url: https://engineer.readthedocs.org/en/latest/
+        - text: if they need the most recent version of the docs. RTD itself also contains links to all versions of the docs, but I don’t think most people know that and if they do, it may not be clear which version they want.
+  - list:
+    - listitem:
+      - link "← older posts":
+        - /url: /page/2/
+    - listitem
+    - listitem:
+      - link "– all articles –":
+        - /url: /articles/
+- contentinfo:
+  - paragraph: © 2002-2024 Tyler Butler
+```
