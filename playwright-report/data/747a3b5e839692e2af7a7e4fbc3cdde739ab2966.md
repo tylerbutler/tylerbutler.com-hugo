@@ -1,0 +1,164 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - heading "tyler butler" [level=1]:
+    - link "tyler butler":
+      - /url: http://localhost:1313/
+  - navigation:
+    - list:
+      - listitem:
+        - link "articles":
+          - /url: http://localhost:1313/articles/
+      - listitem:
+        - link "projects":
+          - /url: http://localhost:1313/projects/
+      - listitem:
+        - link "about":
+          - /url: http://localhost:1313/about/
+- paragraph
+- text: I'm
+- link "Tyler Butler":
+  - /url: /about/
+- text: ": a big man with small dogs."
+- paragraph
+- separator
+- navigation:
+  - list:
+    - listitem:
+      - link "feed":
+        - /url: http://feed.tylerbutler.com/AllPosts
+      - text: /
+    - listitem:
+      - link "archives":
+        - /url: /articles/
+      - text: /
+    - listitem:
+      - link "colophon":
+        - /url: /colophon/
+- separator
+- heading "you might remember me from" [level=2]
+- list:
+  - listitem:
+    - link "github":
+      - /url: https://github.com/tylerbutler
+- main:
+  - text: NOV 28 2024
+  - link "∞":
+    - /url: /2024/11/thanksgiving/
+  - list:
+    - listitem:
+      - link "Thanksgiving":
+        - /url: /tags/thanksgiving/
+  - article:
+    - time
+    - heading "Thanksgiving 2024" [level=1]:
+      - link "Thanksgiving 2024":
+        - /url: /2024/11/thanksgiving/
+    - paragraph:
+      - text: Thanksgiving has been my favorite of the US holidays for some time. I’ve
+      - link "written about it several times over the years":
+        - /url: /tags/thanksgiving/
+      - text: .
+    - paragraph: "When I am away for the holiday, I have used the following Rumi quote as my auto-reply message at work:"
+    - blockquote:
+      - paragraph: Wear gratitude like a cloak, and it will feed every corner of your life.
+    - separator
+    - paragraph: "This year, though, has been extremely hard, following several other years that I swore were the hardest. The hits: they keep on coming."
+    - paragraph: "This year, a different Rumi poem rings true:"
+    - blockquote:
+      - paragraph: Who makes these changes? I shoot an arrow right. It lands left. I ride after a deer and find myself Chased by a hog. I plot to get what I want And end up in prison. I dig pits to trap others And fall in.
+      - paragraph: I should be suspicious Of what I want.
+  - text: MAR 31 2019
+  - link "∞":
+    - /url: /2019/03/ten-of-my-favorite-poems/
+  - article:
+    - time
+    - heading "Ten of My Favorite Poems" [level=1]:
+      - link "Ten of My Favorite Poems":
+        - /url: /2019/03/ten-of-my-favorite-poems/
+    - paragraph: Post content here.
+  - text: AUG 05 2017
+  - link "∞":
+    - /url: /2017/08/coke-zero-ii-the-review/
+  - article:
+    - time
+    - 'heading "Coke Zero II: The Review" [level=1]':
+      - 'link "Coke Zero II: The Review"':
+        - /url: /2017/08/coke-zero-ii-the-review/
+    - heading "The News" [level=2]
+    - paragraph:
+      - text: "Last week, my wife shared with me some rather alarming news: Coke Zero"
+      - link "is being discontinued":
+        - /url: https://www.washingtonpost.com/business/coke-zero-gets-makeover-as-coke-zero-sugar/2017/07/26/69c65010-7214-11e7-8c17-533c52b2f014_story.html?utm_term=.f6a83466de55
+      - text: . As a man who has an arguably unhealthy attachment to his carbonated beverage of choice, this was panic-worthy.
+    - paragraph:
+      - text: You’ll forgive me for not trusting the Coca-Cola Company when they roll out replacement products with “new, improved taste.” After all, this is the same company that brought us New Coke
+      - superscript:
+        - link "1":
+          - /url: "#fn:1"
+      - text: in 1985. Last I heard, that was still used as a cautionary tale in Marketing 101 classes.
+    - paragraph: And you’ll also forgive me for not thinking of this as merely a re-branding of the Coke Zero product. The ingredients list may be the same, but they clearly claim to have “a new recipe.” So regardless of what anyone else says, Coke Zero in its current form is gone.
+    - paragraph: No big deal, though, right? I mean, announcements like this… they tend to be sensationalist. At the very least, I’ll certainly have several months to prepare myself psychologically.
+    - paragraph: "Nope:"
+    - blockquote:
+      - paragraph: The new cans and bottles, which will incorporate more red like regular Coke, will start hitting shelves in August 2017.
+    - paragraph:
+      - emphasis: August 2017?
+      - text: Commence freak-out in three… two… one…
+    - link "Read more →":
+      - /url: http://localhost:1313/2017/08/coke-zero-ii-the-review/
+  - text: AUG 25 2016
+  - link "∞":
+    - /url: /2016/08/comiskey-park/
+  - article:
+    - time
+    - heading "Comiskey Park" [level=1]:
+      - link "Comiskey Park":
+        - /url: /2016/08/comiskey-park/
+    - paragraph:
+      - text: Well, it’s happened again. They’ve gone and
+      - link "renamed Comiskey Park":
+        - /url: http://wgntv.com/2016/08/24/white-sox-announce-name-change-to-ballpark/
+      - text: to something else. And I feel about the same way
+      - link "I did back in 2004":
+        - /url: /2004/05/all-i-said-was-comiskey-park/
+      - text: ", when the last name change happened."
+    - paragraph: I lived a few blocks from the park at that time, as opposed to the few thousand I do now, but it still upsets me. Whatever happens, it’ll always be Comiskey Park to me.
+  - text: NOV 27 2015
+  - link "∞":
+    - /url: /2015/11/thanksgiving-tradition-alice-s-restaurant-massacre/
+  - list:
+    - listitem:
+      - link "Music":
+        - /url: /tags/music/
+    - listitem:
+      - link "Thanksgiving":
+        - /url: /tags/thanksgiving/
+    - listitem:
+      - link "Tradition":
+        - /url: /tags/tradition/
+  - article:
+    - time
+    - 'heading "Thanksgiving Tradition: Alice''s Restaurant Massacre" [level=1]':
+      - 'link "Thanksgiving Tradition: Alice''s Restaurant Massacre"':
+        - /url: /2015/11/thanksgiving-tradition-alice-s-restaurant-massacre/
+    - paragraph:
+      - text: "I have a tradition on Thanksgiving: I listen to Arlo Guthrie’s classic"
+      - emphasis: Alice’s Restaurant Massacre
+      - text: ; all 18 minutes and 37 seconds of it. I don’t remember exactly where I picked up this tradition, but it feels distinctly
+      - emphasis: mine
+      - text: since it’s not something that my family did growing up.
+    - paragraph: Anyway, I found out yesterday that the song is available on Spotify in its full-length glory. So kick back, close your eyes for 20 minutes, and enjoy.
+    - iframe
+  - list:
+    - listitem:
+      - link "← older posts":
+        - /url: /page/2/
+    - listitem
+    - listitem:
+      - link "– all articles –":
+        - /url: /articles/
+- contentinfo:
+  - paragraph: © 2002-2024 Tyler Butler
+```
