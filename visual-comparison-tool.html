@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Layout Comparison Tool</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .comparison { display: flex; gap: 20px; margin-bottom: 30px; }
+        .layout { flex: 1; border: 2px solid #ccc; }
+        .layout h3 { margin: 0; padding: 10px; background: #f5f5f5; }
+        .layout iframe { width: 100%; height: 600px; border: none; }
+        .controls { margin-bottom: 20px; }
+        .controls button { margin-right: 10px; padding: 8px 16px; }
+    </style>
+</head>
+<body>
+    <h1>Hugo Layout Comparison Tool</h1>
+    
+    <div class="controls">
+        <button onclick="loadPage('/')">Homepage</button>
+        <button onclick="loadPage('/articles/')">Articles</button>
+        <button onclick="loadPage('/2024/11/thanksgiving/')">Single Article</button>
+    </div>
+    
+    <div class="comparison">
+        <div class="layout">
+            <h3>Classic Layout</h3>
+            <iframe id="classic" src="http://127.0.0.1:1313/"></iframe>
+        </div>
+        <div class="layout">
+            <h3>Modern Layout</h3>
+            <iframe id="modern" src="http://127.0.0.1:1313/?layout=modern"></iframe>
+        </div>
+    </div>
+    
+    <div style="margin-top: 20px;">
+        <h2>Visual Comparison Checklist</h2>
+        <ul>
+            <li>✅ Content is identical between layouts</li>
+            <li>🔍 Navigation placement and functionality</li>
+            <li>📱 Responsive behavior at different screen sizes</li>
+            <li>🎨 Typography and spacing improvements</li>
+            <li>⚡ Performance and loading speed</li>
+            <li>♿ Accessibility enhancements</li>
+        </ul>
+    </div>
+    
+    <script>
+        function loadPage(path) {
+            document.getElementById('classic').src = 'http://127.0.0.1:1313' + path;
+            document.getElementById('modern').src = 'http://127.0.0.1:1313' + path + '?layout=modern';
+        }
+    </script>
+</body>
+</html>

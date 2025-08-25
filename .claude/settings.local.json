@@ -14,7 +14,11 @@
       "Bash(hugo server:*)",
       "Bash(npm run test:visual:*)",
       "Bash(npx playwright test:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(hugo:*)",
+      "Bash(mv:*)",
+      "Bash(grep:*)",
+      "Bash(npx playwright:*)"
     ],
     "deny": [],
     "ask": []

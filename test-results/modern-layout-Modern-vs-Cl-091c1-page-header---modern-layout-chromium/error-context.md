@@ -4,18 +4,18 @@
 - banner:
   - heading "tyler butler" [level=1]:
     - link "tyler butler":
-      - /url: http://localhost:1313/
+      - /url: http://127.0.0.1:1313/
   - navigation:
     - list:
       - listitem:
         - link "articles":
-          - /url: http://localhost:1313/articles/
+          - /url: http://127.0.0.1:1313/articles/
       - listitem:
         - link "projects":
-          - /url: http://localhost:1313/projects/
+          - /url: http://127.0.0.1:1313/projects/
       - listitem:
         - link "about":
-          - /url: http://localhost:1313/about/
+          - /url: http://127.0.0.1:1313/about/
 - paragraph
 - text: I'm
 - link "Tyler Butler":
@@ -98,7 +98,7 @@
       - emphasis: August 2017?
       - text: Commence freak-out in three… two… one…
     - link "Read more →":
-      - /url: http://localhost:1313/2017/08/coke-zero-ii-the-review/
+      - /url: http://127.0.0.1:1313/2017/08/coke-zero-ii-the-review/
   - text: AUG 25 2016
   - link "∞":
     - /url: /2016/08/comiskey-park/
@@ -168,11 +168,9 @@
       - text: .
     - list:
       - listitem:
-        - text: »
         - emphasis: master
         - text: ": The most recent released version of the code"
       - listitem:
-        - text: »
         - emphasis: dev
         - text: ": The in-development version of the code"
     - paragraph:
@@ -267,14 +265,14 @@
     - paragraph: "So bottom line, this is what I’ve wound up with:"
     - list:
       - listitem:
-        - text: »If you go directly to
+        - text: If you go directly to
         - link "https://engineer.readthedocs.org/":
           - /url: https://engineer.readthedocs.org/
         - text: ", you’ll get the latest"
         - emphasis: released
         - text: version of the docs, which will correspond to what most people will install using pip.
       - listitem:
-        - text: »If you visit the
+        - text: If you visit the
         - link "GitHub repo":
           - /url: https://github.com/tylerbutler/engineer
         - text: ", you’ll see the most recent in-development version of the code. The README links to"
@@ -284,7 +282,7 @@
         - emphasis: released
         - text: version of the docs.
       - listitem:
-        - text: »The docs themselves contain notes redirecting people to
+        - text: The docs themselves contain notes redirecting people to
         - link "https://engineer.readthedocs.org/en/latest/":
           - /url: https://engineer.readthedocs.org/en/latest/
         - text: if they need the most recent version of the docs. RTD itself also contains links to all versions of the docs, but I don’t think most people know that and if they do, it may not be clear which version they want.
