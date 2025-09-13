@@ -6,11 +6,9 @@ export default defineConfig({
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
   workers: process.env.CI ? 1 : undefined,
-  reporter: [
-      ['html', { open: 'never' }]
-    ],
+  reporter: [['html', { open: 'never' }]],
   use: {
-    baseURL: 'http://127.0.0.1:1313',
+    baseURL: 'http://localhost:1314',
     trace: 'on-first-retry',
   },
   projects: [
@@ -40,9 +38,10 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: 'hugo server --port 1313 --bind 127.0.0.1 --baseURL http://127.0.0.1:1313 --environment test',
-    url: 'http://127.0.0.1:1313',
+    command: 'hugo server -D --bind 0.0.0.0 --port 1314',
+    port: 1314,
     reuseExistingServer: !process.env.CI,
-    timeout: 120 * 1000,
+    stdout: 'pipe',
+    stderr: 'pipe',
   },
 });
