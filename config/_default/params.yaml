@@ -1,4 +1,5 @@
 # Default params
+sidebar: true
 theme:
   bigfoot:
     enabled: yes
