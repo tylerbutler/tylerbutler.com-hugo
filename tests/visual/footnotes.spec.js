@@ -157,7 +157,7 @@ test.describe('Footnote Functionality', () => {
 
 test.describe('Modern vs Classic Footnote Comparison', () => {
   test('modern layout footnotes - littlefoot', async ({ page }) => {
-    await page.goto('/?layout=modern');
+    await page.goto('/');
     await page.waitForLoadState('networkidle');
     
     // Enable modern layout
