@@ -1,0 +1,13 @@
+{{ if $.Site.Menus.sidebarmiddle }}
+<ul>
+  {{ range $.Site.Menus.sidebarmiddle }}
+    <li><a href="{{ .URL }}">{{ .Name }}</a>{{ if ne .Weight 3 }}/{{ end }}</li>
+  {{ end }}
+</ul>
+{{ else }}
+  <ul>
+    <li><a href="http://feed.tylerbutler.com/AllPosts">feed</a>/</li>
+    <li><a href="/articles/">archives</a>/</li>
+    <li><a href="/colophon/">colophon</a></li>
+  </ul>
+{{ end }}
